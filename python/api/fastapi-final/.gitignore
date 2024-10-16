@@ -1,0 +1,8 @@
+api-_nurs/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+db.sqlite3
+*.sqlite3
