@@ -20,3 +20,12 @@
 ---
 
 ### Ответ
+
+
+sudo apt update
+sudo apt install ufw
+sudo ufw allow 'Nginx Full'
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw enable
+sudo ufw status
