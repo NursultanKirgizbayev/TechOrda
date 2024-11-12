@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  api:
+    image: jusan-fastapi-final:dockerized  # Используем образ, который вы собрали ранее
+    container_name: jusan-compose
+    ports:
+      - "8282:8080"  # Перенаправляем порт 8282 хоста на порт 8080 контейнера
+    restart: always
